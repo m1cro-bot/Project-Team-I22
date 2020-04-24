@@ -1,13 +1,13 @@
 * {
 	padding:0;
 	margin:0;
-
 }
-
 body {
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:25px;
-	background-color:#d6d6c2
+	background-color:#d6d6c2;
+	margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -34,7 +34,6 @@ header {
 #tag-menu {
 	display:none;
 }
-
 
 #tag-menu:checked ~ div.jw-drawer {
  animation: slide-in 0.5s ease;
@@ -89,4 +88,121 @@ header {
 .content{
   padding: 100px 0 0 250px;
 	background-color: #d6d6c2;
+}
+
+.mySlides {
+	display: none;
+}
+
+.slider-container {
+	position: relative;
+}
+
+.slider-container button {
+	position: absolute;
+	top: 50%;
+	opacity: 0.5;
+}
+
+.slider-container button:last-child {
+	top: 50%;
+	right: 0%;
+}
+
+.slider-container {
+	height: auto;
+	width: 100%;
+}
+
+.slider-container img {
+	width: 100%;
+}
+
+.main-header-container {
+	background-color: #9E2630;
+}
+
+h1 {
+	padding: 10px 0px 10px 20px;
+	font-size: 26px;
+	font-weight: lighter;
+	color: white;
+}
+
+.main-container {
+	min-height: 600px;
+	width: 100%;
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+main h2,
+main p {
+	letter-spacing: 1px;
+	margin: 0;
+	line-height: 1.8;
+	text-align: justify;
+}
+
+main button {
+	opacity: 0.5;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	padding: 8px 16px;
+}
+
+main section {
+	margin-bottom: 40px;
+}
+
+#main-section-1,
+#main-section-2,
+#main-section-3,
+#main-section-4 {
+	overflow: hidden;
+}
+
+#main-section-1 img,
+#main-section-2 img,
+#main-section-3 img,
+#main-section-4 img {
+	display: block;
+	float: left;
+	margin-right: 100px;
+}
+
+#main-section-1 article,
+#main-section-2 article,
+#main-section-3 article,
+#main-section-4 article {
+	display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+.body-wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+.footer-container {
+    width: 100%;
+    height: 40px;
+    background-color: #9E2630;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container marquee {
+    color: white;
 }
