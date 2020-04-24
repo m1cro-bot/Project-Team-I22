@@ -5,7 +5,7 @@
 body {
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:25px;
-	background-color:#d6d6c2;
+	background-color:#fff;
 	margin: 0px;
     padding: 0px;
 }
@@ -87,7 +87,7 @@ header {
 
 .content{
   padding: 100px 0 0 250px;
-	background-color: #d6d6c2;
+	background-color: #fff;
 }
 
 .mySlides {
@@ -153,6 +153,9 @@ main button {
 
 main section {
 	margin-bottom: 40px;
+}
+.header-article{
+	background-color: #FFF;
 }
 
 #main-section-1,
