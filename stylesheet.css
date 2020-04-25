@@ -223,6 +223,29 @@ main section {
 	display: block;
 	padding-top:50px;
 }
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson {
+  float: left;
+  width: 50%;
+  text-align:center;
+}
+
+.lesson-icon {
+  position: relative;
+  text-align:center;
+}
+
+.lesson-icon h2, .lesson-icon p{
+
+  text-align:center;
+}
+
 
 a:link {
     text-decoration: none;
