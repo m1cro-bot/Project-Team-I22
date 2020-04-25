@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Team Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsif.css">
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="tag-menu"/>
+      <label class="fa fa-bars menu-bar" for="tag-menu"></label>
+      <div class="jw-drawer">
+        <nav>
+          <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a></li>
+            <li><a href="profile.html"><i class="fa fa-user"></i>&nbsp;&nbsp;Profile</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>&nbsp;&nbsp;Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="slider">
+      <div class="slider-container">
+          <img class="mySlides" src="assets/images/slider_1.png">
+          <img class="mySlides" src="assets/images/slider_2.png">
+          <img class="mySlides" src="assets/images/slider_3.png">
+          <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+  </section>
+  <main>
+    <div class="main-container">
+        <header>
+            <div class="main-header-container">
+                <h1>Profile Anggota kelompok 22</h1>
+            </div>
+        </header>
+        <section id="main-section-1">
+            <img src="https://prog-8.com/images/html/advanced/html.png" alt="section-image-1">
+            <article>
+                <header class="header-article">
+                    <h2>Nama 1</h2>
+                </header>
+                <p>Asal : .......</p>
+            </article>
+        </section>
+        <section id="main-section-2">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="section-image-2">
+            <article>
+                <header class="header-article">
+                    <h2>Nama 2</h2>
+                </header>
+                <p>Asal : .......</p>
+            </article>
+        </section>
+        <section id="main-section-3">
+            <img src="https://prog-8.com/images/html/advanced/ruby.png" alt="section-image-3">
+            <article>
+                <header class="header-article">
+                    <h2>Nama 3</h2>
+                </header>
+                <p>Asal : .......</p>
+            </article>
+        </section>
+        <section id="main-section-4">
+          <img src="https://prog-8.com/images/html/advanced/php.png" alt="section-image-3">
+          <article>
+              <header class="header-article">
+                  <h2>Nama 4</h2>
+              </header>
+              <p>Asal : .......</p>
+          </article>
+      </section>
+      <section id="main-section-5">
+        <img src="https://prog-8.com/images/html/advanced/php.png" alt="section-image-3">
+        <article>
+            <header class="header-article">
+                <h2>Nama 5</h2>
+            </header>
+            <p>Asal : .......</p>
+        </article>
+    </section>
+    </div>
+</main>
+    <footer>
+      <div class="footer-container">
+      <marquee behavior="scroll" direction="left">SELAMAT DATANG DI WEBSITE KELOMPOK 22</marquee>
+    </div>
+    </footer>
+
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+          showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = x.length }
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+      }
+  </script>
+  </body>
+</html>

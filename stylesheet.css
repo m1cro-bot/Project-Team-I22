@@ -121,6 +121,7 @@ header {
 
 .main-header-container {
 	background-color: #9E2630;
+	padding-left:25px;
 }
 
 h1 {
@@ -161,6 +162,7 @@ main section {
 }
 .header-article{
 	background-color: #FFF;
+
 }
 
 #main-section-1,
@@ -177,6 +179,7 @@ main section {
 	display: block;
 	float: left;
 	margin-right: 100px;
+	padding-left:20px;
 }
 
 #main-section-1 article,
