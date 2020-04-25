@@ -1,4 +1,7 @@
 @media all and (max-width: 1000px) {
+  .slider-container {
+    width: 50%;
+  }
     .main-container {
       width: 50%;
       margin-bottom: 50px;
@@ -7,6 +10,9 @@
   
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
+    .slider-container{
+      width: 50%;
+    }
     .main-container {
       width: 100%;
     }
