@@ -168,14 +168,16 @@ main section {
 #main-section-1,
 #main-section-2,
 #main-section-3,
-#main-section-4 {
+#main-section-4,
+#main-section-5 {
 	overflow: hidden;
 }
 
 #main-section-1 img,
 #main-section-2 img,
 #main-section-3 img,
-#main-section-4 img {
+#main-section-4 img,
+#main-section-5 img  {
 	display: block;
 	float: left;
 	margin-right: 100px;
@@ -185,7 +187,8 @@ main section {
 #main-section-1 article,
 #main-section-2 article,
 #main-section-3 article,
-#main-section-4 article {
+#main-section-4 article,
+#main-section-5 article  {
 	display: block;
 }
 
