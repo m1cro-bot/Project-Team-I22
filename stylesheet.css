@@ -158,38 +158,70 @@ main button {
 }
 
 main section {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .header-article{
 	background-color: #FFF;
+	padding-top:0px;
 
 }
 
 #main-section-1,
 #main-section-2,
 #main-section-3,
-#main-section-4,
-#main-section-5 {
+#main-section-4 {
 	overflow: hidden;
+}
+
+#main-section-5,
+#main-section-6,
+#main-section-7,
+#main-section-8,
+#main-section-9 {
+	overflow: hidden;
+	margin-bottom:0 px;
+	
 }
 
 #main-section-1 img,
 #main-section-2 img,
 #main-section-3 img,
-#main-section-4 img,
-#main-section-5 img  {
+#main-section-4 img{
 	display: block;
 	float: left;
 	margin-right: 100px;
 	padding-left:20px;
+	padding-top:20px;
+	
 }
 
 #main-section-1 article,
 #main-section-2 article,
 #main-section-3 article,
-#main-section-4 article,
-#main-section-5 article  {
+#main-section-4 article  {
 	display: block;
+}
+
+#main-section-5 img,
+#main-section-6 img,
+#main-section-7 img,
+#main-section-8 img,
+#main-section-9 img  {
+	display: block;
+	float: left;
+	margin-right: 100px;
+	padding-left:20px;
+	padding-top:10px;
+	
+}
+
+#main-section-5 article,
+#main-section-6 article,
+#main-section-7 article,
+#main-section-8 article,
+#main-section-9 article  {
+	display: block;
+	padding-top:50px;
 }
 
 a:link {
