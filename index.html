@@ -23,6 +23,10 @@
   <body>
     <section id="slider">
       <div class="slider-container">
+        <div class="wr-slider">
+          <h1>"MAKE YOUR LIFE EASIER WITH CODING"</h1>
+          <h2>Come join us!</h2>
+        </div>
           <img class="mySlides" src="assets/images/slider_1.png">
           <img class="mySlides" src="assets/images/slider_2.png">
           <img class="mySlides" src="assets/images/slider_3.png">
@@ -30,11 +34,11 @@
           <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
       </div>
   </section>
-  <main>
+  <main id="id-hd-cn">
     <div class="main-container">
         <header>
             <div class="main-header-container">
-                <h1>Cari tau dari mana anda mau memulai!</h1>
+                <a href="#main-section-1"><h1>Cari tau apa yang anda butuhkan disini.</h1></a>
             </div>
         </header>
         <section id="main-section-1">
@@ -81,10 +85,11 @@
 </main>
     <footer>
       <div class="footer-container">
-      <marquee behavior="scroll" direction="left">SELAMAT DATANG DI WEBSITE KELOMPOK 22</marquee>
-    </div>
+        <a href="#id-hd-cn"><span>Klik disini!</span>
+      </div>
     </footer>
-    <script>
+    <script> 
+
       var slideIndex = 1;
       showDivs(slideIndex);
 
