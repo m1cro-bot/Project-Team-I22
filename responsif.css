@@ -1,17 +1,24 @@
-@media all and (min-width: 1000px) {
-    .main-container {
-      width: 50%;
-      margin-bottom: 50px;
-    }
+/*for tablet*/
+@media all and (max-width: 760px) {
+  .mySlides .img-profil {
+    width: 80px;
+    height: 80px;
+  }
+  .mySlides li {
+    margin: 10px;
+  }
+  .mySlides h4 {
+    font-size: 16px;
+  }
+
   }
   
-  /* Untuk Smartphone */
-  @media all and (min-width: 670px) {
+  /* Untuk smartphones */
+  @media all and (max-width: 600px) {
     .main-container {
       width: 100%;
     }
-    
-    footer {
-      text-align: center;
+    .mySlides h2 {
+      visibility: hidden;
     }
   }
