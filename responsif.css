@@ -1,5 +1,5 @@
 /*for tablet*/
-@media all and (max-width: 800px) {
+@media all and (max-width: 760px) {
   .mySlides .img-profil {
     width: 160px;
     height: 160px;
@@ -13,7 +13,7 @@
   .main-container h1 {
     font-size: 24px;
   }
-  .item-wr-des {
+  .wr-item-cn .item-wr-des {
     padding-left: 20px;
   }
 
@@ -21,17 +21,19 @@
   
   /* Untuk smartphones */
   @media all and (max-width: 600px) {
-    .main-container {
-      height: 1650px;
+    
+    .main-container .wr-item-cn {
+      height: 400px;
     }
-    .item-wr-img {
+    .wr-item-cn .item-wr-img {
       width: 100%;
+      height: 200px;
     }
-    .item-wr-des {
+    .wr-item-cn .item-wr-des {
       width: 100%;
+      height: 200px;
       padding: 0;
       text-align: center;
-      margin-bottom: 20px;
     }
     .item-wr-des p{
       width: 100%;
