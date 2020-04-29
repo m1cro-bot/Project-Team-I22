@@ -1,8 +1,8 @@
 /*for tablet*/
-@media all and (max-width: 760px) {
+@media all and (max-width: 800px) {
   .mySlides .img-profil {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
   }
   .mySlides li {
     margin: 10px;
@@ -10,15 +10,40 @@
   .mySlides h4 {
     font-size: 16px;
   }
+  .main-container h1 {
+    font-size: 24px;
+  }
+  .item-wr-des {
+    padding-left: 20px;
+  }
 
   }
   
   /* Untuk smartphones */
   @media all and (max-width: 600px) {
     .main-container {
+      height: 1650px;
+    }
+    .item-wr-img {
       width: 100%;
     }
-    .mySlides h2 {
-      visibility: hidden;
+    .item-wr-des {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .item-wr-des p{
+      width: 100%;
+    }
+    .footer-container .logo-footer {
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      margin: auto;
+      padding-top: 15px;
+    }
+    .logo-footer img {
+      height: 60%;
     }
   }
